@@ -1,0 +1,26 @@
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+    text-transform: none;
+    }
+.reveal code {
+    display: inline-block;
+    background: #333;
+    border-radius: 8px;
+    padding-left: 4px;
+    padding-right 4px;
+    color: #fc6;
+    }
+
+img:hover {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 5% auto;
+    }
+
+body {
+    /* background-image: url("/img/21Mar2017Sentinel.png"); */
+    background-repeat: no-repeat;
+    background-position: center center;
+    }
+
