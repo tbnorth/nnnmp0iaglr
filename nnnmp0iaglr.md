@@ -15,6 +15,13 @@
 
 
 
+<!-- .slide: data-background-video="img/0001-0500.mp4" -->
+<!-- .slide: data-background-size="contain" -->
+<!-- .slide: data-background-repeat="no-repeat" -->
+<!-- .slide: data-background-position="center center" -->
+
+
+
 <!-- .slide: data-background="img/21Mar2017Sentinel.png" -->
 <!-- .slide: data-background-size="contain" -->
 <!-- .slide: data-background-repeat="no-repeat" -->
