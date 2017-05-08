@@ -15,10 +15,20 @@
 
 
 
-<!-- .slide: data-background-video="img/0001-0500.mp4" -->
+<!-- .slide: data-background-video="img/0001-0020.ogv" -->
 <!-- .slide: data-background-size="contain" -->
 <!-- .slide: data-background-repeat="no-repeat" -->
 <!-- .slide: data-background-position="center center" -->
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -36,24 +46,26 @@
 
 
 
-
 # Model
+
+$V_j\frac{dC_j}{dt} = \sum^n_iQ_i{}_jC_i{}_j + \sum^n_iR_i{}_j(C_i-C_j)+W_j-S_j$
 
 
 
 ## Implementation
 
  - Originally in MatLab, now in Python
+ - Hybrid cell / agent model
  - Uses `multiprocessing` (true parallelism) for agents, flow,
    and reading inputs
- - Not a great boost with current test grid, but should help with
-   larger grids
+     - Not a great boost with current test grid, but should help with
+       larger grids
 
 
 ### Persistent multi-processing
 
- - `threading` `Queue` can be `joined()` to wait for all tasks
- - `multiprocessing` `Queue` cannot, a `Pool` must be closed before joining
+ - `threading` `Queue` can be `joined()` to wait for all tasks to complete
+ - `multiprocessing` `Queue` cannot, and a `Pool` must be closed before joining
  - workers far too expensive to start every iteration
  - use two `Queue`s, one to deliver tasks, and one to ping back when a task
    completes
@@ -67,4 +79,6 @@
 ## Visualization
 
  - Uses CesiumJS, an in-browser accelrated graphics (WebGL) framework.
+
+
 
