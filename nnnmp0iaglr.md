@@ -38,25 +38,19 @@
 
 
 
-# GLAHF regions
+# GLAHF regions <!-- .slide: data-state="hide-head" -->
 
-<!-- .slide: data-background="img/glahf_regions.png" -->
-<!-- .slide: data-background-size="contain" -->
-<!-- .slide: data-background-repeat="no-repeat" -->
-<!-- .slide: data-background-position="center center" -->
+<!-- .slide: data-background="img/glahf_regions.png" data-background-size="contain" -->
 
 
 
-# Study site
+# Study site <!-- .slide: data-state="hide-head" -->
 
-<!-- .slide: data-background="img/21Mar2017Sentinel.png" -->
-<!-- .slide: data-background-size="contain" -->
-<!-- .slide: data-background-repeat="no-repeat" -->
-<!-- .slide: data-background-position="center center" -->
+<!-- .slide: data-background="img/21Mar2017Sentinel.png" data-background-size="contain" -->
 
 
 
-# Study site
+# Study site <!-- .slide: data-state="hide-head" -->
 
 <!-- .slide: data-background="img/sitemap2.png" data-background-size="contain" -->
 
@@ -77,12 +71,9 @@
 
 
 
-# Observations 
+# Observations  <!-- .slide: data-state="hide-head" -->
 
-<!-- .slide: data-background="img/map_obs_flat2.png" -->
-<!-- .slide: data-background-size="contain" -->
-<!-- .slide: data-background-repeat="no-repeat" -->
-<!-- .slide: data-background-position="center center" -->
+<!-- .slide: data-background="img/map_obs_flat2.png" data-background-size="contain" -->
 
 
 
@@ -96,12 +87,14 @@ $V_j\frac{dC_j}{dt} = \sum^n_iQ_i{}_jC_i{}_j + \sum^n_iR_i{}_j(C_i-C_j)+W_j-S_j$
  - Settling term
 
 
-## Structure
-<!-- .slide: data-state="hide-head" -->
-<!-- .slide: data-background-video="img/0001-0020.ogv" -->
-<!-- .slide: data-background-size="contain" -->
-<!-- .slide: data-background-repeat="no-repeat" -->
-<!-- .slide: data-background-position="center center" -->
+## Viz pic <!-- .slide: data-state="hide-head" -->
+
+<!-- .slide: data-background="img/model_gen.png" data-background-size="contain" -->
+
+
+## Structure <!-- .slide: data-state="hide-head" -->
+
+<!-- .slide: data-background-video="img/0001-0020.ogv" data-background-size="contain" -->
 
 
 ## Agents
@@ -125,7 +118,7 @@ $V_j\frac{dC_j}{dt} = \sum^n_iQ_i{}_jC_i{}_j + \sum^n_iR_i{}_j(C_i-C_j)+W_j-S_j$
        larger grids
 
 
-### Persistent multi-processing
+## Persistent multi-processing
 
  - `threading` `Queue` can be `joined()` to wait for all tasks to complete
  - `multiprocessing` `Queue` cannot, and a `Pool` must be closed before joining
@@ -151,6 +144,21 @@ $V_j\frac{dC_j}{dt} = \sum^n_iQ_i{}_jC_i{}_j + \sum^n_iR_i{}_j(C_i-C_j)+W_j-S_j$
  - Sattelite observations
 
 
+## Interface <!-- .slide: data-state="hide-head" -->
+
+<div style="position:relative;height:0;padding-bottom:75.0%"><iframe src="https://www.youtube.com/embed/ihdx9SCcS5Q?rel=0&amp;showinfo=0?ecver=2" width="480" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
+
+<!--
+
+ - 3d environment
+ - change displayed value
+ - time control
+ - interrogate items
+ - satellite data
+
+-->
+
+
 
 # Acknowledgements
 
@@ -170,6 +178,4 @@ Brown.TerryN@epa.gov
 James Pauer
 
 Pauer.James@epa.gov
-
-
 
