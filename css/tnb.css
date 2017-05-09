@@ -1,6 +1,9 @@
 .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
     text-transform: none;
     }
+.hide-head h1, .hide-head h2, .hide-head h3, .hide-head h4, .hide-head h5, .hide-head h6 {
+    display: none;
+    }
 .reveal code {
     display: inline-block;
     background: #333;
