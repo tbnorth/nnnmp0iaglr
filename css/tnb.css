@@ -13,14 +13,6 @@
     color: #fc6;
     }
 
-img:hover {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    margin: 5% auto;
-    }
-
 body {
     /* background-image: url("/img/21Mar2017Sentinel.png"); */
     background-repeat: no-repeat;

@@ -1,8 +1,13 @@
-## Nested Nearshore Nutrient Model (N<sup>3</sup>M)
+# Nested Nearshore Nutrient Model (N<sup>3</sup>M) <!-- .slide: data-state="hide-head" -->
+
+<!-- .slide: data-background="img/front.png" data-background-size="contain" -->
+
+<!-- 
 
 ### Terry Brown, James Pauer,<br/>Tom Hollenhorst<br/>USEPA MED
 
 <http://tbnorth.github.io/nnnmp0iaglr>
+-->
 
 
 
@@ -61,13 +66,19 @@
 
 ## Flow
 
-- NOAA POM 2km 1 hour model
-- Available for 2006 - 2017
-- m/s south to north and west to east
-- Currently using vertically integrated 2d version
+ - NOAA POM 2km 1 hour model
+ - Available for 2006 - 2017
+ - Depth
+ - m/s south to north and west to east
+ - Currently using vertically integrated 2d version
 
 
 ## Loadings
+
+ - currently directly proportinal to flow
+ - may acquire watershed specific model output
+ 
+![Loadings](img/total_TotalP_2015.png) <!-- .element width="50%" -->
 
 
 
@@ -94,7 +105,7 @@ $V_j\frac{dC_j}{dt} = \sum^n_iQ_i{}_jC_i{}_j + \sum^n_iR_i{}_j(C_i-C_j)+W_j-S_j$
 
 ## Structure <!-- .slide: data-state="hide-head" -->
 
-<!-- .slide: data-background-video="img/0001-0020.ogv" data-background-size="contain" -->
+<div style="position:relative;height:0;padding-bottom:75.0%"><iframe src="https://www.youtube.com/embed/AJpi2ShsUfg?rel=0&amp;controls=0&amp;showinfo=0?ecver=2" width="480" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
 
 
 ## Agents
@@ -128,14 +139,6 @@ $V_j\frac{dC_j}{dt} = \sum^n_iQ_i{}_jC_i{}_j + \sum^n_iR_i{}_j(C_i-C_j)+W_j-S_j$
 
 
 
-# Results
-
- - Preliminary
- - Correlation between field observations and model
-   output
-
-
-
 # Visualization
 
  - Uses CesiumJS, an in-browser accelerated graphics (WebGL) framework
@@ -157,6 +160,25 @@ $V_j\frac{dC_j}{dt} = \sum^n_iQ_i{}_jC_i{}_j + \sum^n_iR_i{}_j(C_i-C_j)+W_j-S_j$
  - satellite data
 
 -->
+
+
+
+# Results
+
+
+## Extraction <!-- .slide: data-state="hide-head" -->
+
+<!-- .slide: data-background="img/resultextract.png" data-background-size="contain" -->
+
+
+## Pre-preliminary
+
+![Results](img/TotalP_2015.png) <!-- .element width="60%" -->
+
+
+## Agents <!-- .slide: data-state="hide-head" -->
+
+<div style="position:relative;height:0;padding-bottom:75.0%"><iframe src="https://www.youtube.com/embed/AJpi2ShsUfg?rel=0&amp;controls=0&amp;showinfo=0?ecver=2" width="480" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
 
 
 
