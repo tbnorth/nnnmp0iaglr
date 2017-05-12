@@ -19,3 +19,6 @@ body {
     background-position: center center;
     }
 
+.reveal section img {
+    border: none;
+    }

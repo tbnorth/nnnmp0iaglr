@@ -3,10 +3,9 @@
 <!-- .slide: data-background="img/front.png" data-background-size="contain" -->
 
 <!-- 
+  ### Terry Brown, James Pauer,<br/>Tom Hollenhorst<br/>USEPA MED
 
-### Terry Brown, James Pauer,<br/>Tom Hollenhorst<br/>USEPA MED
-
-<http://tbnorth.github.io/nnnmp0iaglr>
+  <http://tbnorth.github.io/nnnmp0iaglr>
 -->
 
 
@@ -93,7 +92,11 @@
 
 # Model
 
+![Model](img/eqn.png)
+
+<!--
 $V_j\frac{dC_j}{dt} = \sum^n_iQ_i{}_jC_i{}_j + \sum^n_iR_i{}_j(C_i-C_j)+W_j-S_j$
+-->
 
  - Flow between cells
  - Diffusion between cells
@@ -101,14 +104,14 @@ $V_j\frac{dC_j}{dt} = \sum^n_iQ_i{}_jC_i{}_j + \sum^n_iR_i{}_j(C_i-C_j)+W_j-S_j$
  - Settling term
 
 
-## Viz pic <!-- .slide: data-state="hide-head" -->
-
-<!-- .slide: data-background="img/model_gen.png" data-background-size="contain" -->
-
-
 ## Structure <!-- .slide: data-state="hide-head" -->
 
 <div style="position:relative;height:0;padding-bottom:75.0%"><iframe src="https://www.youtube.com/embed/AJpi2ShsUfg?rel=0&amp;controls=0&amp;showinfo=0?ecver=2" width="480" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
+
+
+## Viz pic <!-- .slide: data-state="hide-head" -->
+
+<!-- .slide: data-background="img/model_gen.png" data-background-size="contain" -->
 
 
 ## Agents
@@ -119,7 +122,6 @@ $V_j\frac{dC_j}{dt} = \sum^n_iQ_i{}_jC_i{}_j + \sum^n_iR_i{}_j(C_i-C_j)+W_j-S_j$
    out of the model
  - Placing them in new positions would cause clumping
    in slow moving parts of the model
-
 
 
 ## Implementation
@@ -203,4 +205,5 @@ Brown.TerryN@epa.gov
 James Pauer
 
 Pauer.James@epa.gov
+
 
