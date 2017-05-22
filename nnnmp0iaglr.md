@@ -187,7 +187,7 @@ $V_j\frac{dC_j}{dt} = \sum^n_iQ_i{}_jC_i{}_j + \sum^n_iR_i{}_j(C_i-C_j)+W_j-S_j$
 
 
 
-## Acknowledgements
+## &nbsp;&nbsp;Acknowledgements&nbsp;&nbsp;
 
  - Wilson Melendez, data preparation
  - Xiaomi Zhang, model development
